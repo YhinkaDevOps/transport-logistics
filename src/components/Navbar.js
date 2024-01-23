@@ -1,69 +1,78 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Link from "next/link";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
+  const [isClick, setisClick] = useState(false);
+
+  const handleClick = () => setisClick(!isClick);
+
   return (
-    <nav className="navbar bg-white pb-4 pt-10 px-4 md:px-[10px] lg:px-[120px] md:pt-7 md:pb-7">
-      <div className="mx-auto">
+    <nav className="navbar w-full fixed z-50 bg-white md:px-[20px] lg:px-[50px] xl:px-[120px]">
+      <div className="mx-auto px-2 py-4">
         <div className="flex justify-between items-center">
-          <div className="flex items-center">
-            <span className="logo font-bold text-black capitalize flex items-center text-[19px] md:text-[32px] lg:text-[18px] hover:text-gray-500">
-              <Link href="/">CHIMKASIMMA TRANSPORT SERVICES</Link>
-            </span>
-          </div>
+          <Link href="/">
+            <button className="hover:opacity-70 flex items-center flex-shrink-0">
+              <img
+                src="/assets/ck.png"
+                className="h-[65px]"
+                alt="Navigation_logo"
+              />
+
+              <span className="hidden md:block font-bold">
+                Chimkasimma Transport Services
+              </span>
+            </button>
+          </Link>
 
           <div className="hidden md:block">
             <ul className="nav-list flex gap-x-9 items-center text-base ">
               <li className="text-black font-medium hover:text-gray-300">
-                <Link href="#">Home</Link>
+                <Link href="/">Home</Link>
               </li>
               <li className="text-black font-medium hover:text-gray-300">
                 <Link href="#">Booking</Link>
               </li>
               <li className="text-black font-medium hover:text-gray-300">
-                <Link href="#">Services</Link>
+                <Link href="/terminals">Terminals</Link>
               </li>
               <li className="text-black font-medium hover:text-gray-300">
-                <Link href="#">About Us</Link>
-              </li>
-              <li className="text-black font-medium hover:text-gray-300">
-                <Link href="#">Contact Us</Link>
+                <Link href="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>
 
-          {/* <div className="flex items-center md:hidden">
-            <button
-              onClick={toggleMenu}
-              className="text-white hover:text-gray-300 focus:outline-none"
-            >
-              {isOpen ? <FaTimes size={25} /> : <FaBars size={25} />}
+          <div className="flex items-center p-2 rounded-md focus:outline-none md:hidden">
+            <button onClick={handleClick} className="">
+              {isClick ? <FaTimes size={30} /> : <FaBars size={30} />}
             </button>
-          </div> */}
+          </div>
         </div>
       </div>
 
-      {/* <div className={`${isOpen ? "block" : "hidden"} md:hidden bg-gray-100`}>
-        <ul className=".nav-list  flex flex-col items-center gap-y-4 py-3 px-4 text-lg font-bold">
-          <li>
-            <Link href="#">Home</Link>
-          </li>
-          <li>
-            <Link href="#">About</Link>
-          </li>
-          <li>
-            <Link href="#">Courses</Link>
-          </li>
-          <li>
-            <Link href="#">Testimonials</Link>
-          </li>
-          <li className="text-[#004DB3]">
-            <button>
-              <Link href="#">Enroll Now</Link>
-            </button>
-          </li>
-        </ul>
-      </div> */}
+      <div>
+        {isClick && (
+          <div className="bg-[#333663] md:hidden">
+            <div className="px-2 pt-2 pb-2 space-y-1 sm:px-3">
+              <ul className="list-none space-y-2">
+                <li className="text-white hover:bg-white font-medium hover:text-black rounded-lg p-2">
+                  <Link href="/">Home</Link>
+                </li>
+                <li className="text-white hover:bg-white font-medium hover:text-black rounded-lg p-2">
+                  <Link href="#">Booking</Link>
+                </li>
+                <li className="text-white hover:bg-white font-medium hover:text-black rounded-lg p-2">
+                  <Link href="/terminals">Terminals</Link>
+                </li>
+                <li className="text-white hover:bg-white font-medium hover:text-black rounded-lg p-2">
+                  <Link href="/contact">Contact Us</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        )}
+      </div>
     </nav>
   );
 };

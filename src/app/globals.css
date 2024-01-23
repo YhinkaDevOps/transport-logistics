@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url(//db.onlinewebfonts.com/c/17539719b4e0eb2d54284f9ecce700e1?family=Amazing+Kids);
+@import url(//db.onlinewebfonts.com/c/17539719b4e0eb2d54284f9ecce700e1?family=Amazing+Kids);
 @import url('https://fonts.cdnfonts.com/css/satoshi');
-@import url('https://fonts.cdnfonts.com/css/clash-display'); */
+@import url('https://fonts.cdnfonts.com/css/clash-display');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,10 +15,96 @@
   margin: 0;
 }
 
-.navbar{
+.navbar {
   box-shadow: rgb(128, 128, 128) 0px 0px 5px 0px;
 }
 
+.hero-bg {
+  background-image: url("../../public/assets/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  -webkit-filter: blur(2px);
+}
+
+.hero p {
+  font-size: 19px;
+}
+
+.bg-text {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+ .bg-text {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 15px;
+}
+}
 /* .logo{
 font-family: "Amazing Kids", sans-serif;
 } */
+
+/* Terminals style */
+.aba-bg {
+  background-image: url("../../public/assets/aba.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.festac-bg {
+  background-image: url("../../public/assets/festac.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.abuja-bg {
+  background-image: url("../../public/assets/abuja.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.enugu-bg {
+  background-image: url("../../public/assets/enugu.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(112, 157, 255, 0.8),
+    hsla(242, 74%, 61%, 0.8)
+  ) !important;
+}
+
+/* Contact style */
+.contact-form{
+  box-shadow: rgba(8, 33, 90, 0.2) 0px 0px 30px 0px;
+}
