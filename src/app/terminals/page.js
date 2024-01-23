@@ -135,6 +135,9 @@ const Terminal = () => {
             <div className="font-semibold text-white">
               1st Avenue Festac, beside Tracas Festac Town, Lagos State
             </div>
+            <Button onClick={onOpen} mt={4}>
+              Book Now
+            </Button>
           </div>
         </div>
       </div>
@@ -157,6 +160,9 @@ const Terminal = () => {
             <div className="font-semibold text-white">
               Plot 1127 A.E Ekukinam street, Utako, Abuja
             </div>
+            <Button onClick={onOpen} mt={4}>
+              Book Now
+            </Button>
           </div>
         </div>
       </div>
@@ -179,6 +185,9 @@ const Terminal = () => {
             <div className="font-semibold text-white">
               No. 7, market road, Mgbemena park ogui, Enugu
             </div>
+            <Button onClick={onOpen} mt={4}>
+              Book Now
+            </Button>
           </div>
         </div>
       </div>
