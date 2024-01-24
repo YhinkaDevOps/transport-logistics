@@ -32,7 +32,7 @@ const Terminal = () => {
       </div>
 
       {/* Aba Terminal  */}
-      <div className="animate__animated animate__fadeInLeft bg-transparent md:bg-red-400 rounded-md mt-10 mx-auto max-w-[900px] w-full grid sm:grid-cols-2 gap-2 p-1 md:p-4 text-white">
+      <div className="border-animate__animated animate__fadeInLeft md:border-t md:border-b border-black mt-10 mx-auto max-w-[900px] w-full grid sm:grid-cols-2 gap-2 p-1 md:p-4 text-white">
         <div className="hidden md:block">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.9456829141236!2d7.371445!3d5.112457399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10429947b8195601%3A0x82f1b7c2fbf35653!2s2%20Milverton%20Rd%2C%20Aba%2C%20450101%2C%20Abia!5e0!3m2!1sen!2sng!4v1705232983315!5m2!1sen!2sng"
@@ -63,9 +63,9 @@ const Terminal = () => {
                 </FormControl>
 
                 <FormControl mt={4} isRequired>
-                  <FormLabel>Contact Information:</FormLabel>
+                  <FormLabel>Contact Number:</FormLabel>
                   <Input
-                    placeholder="Contact Information:"
+                    placeholder="Contact Mumber"
                     type="number"
                     name="contact"
                   />
@@ -73,7 +73,7 @@ const Terminal = () => {
                 <FormControl mt={4} isRequired>
                   <FormLabel>Departure Location:</FormLabel>
                   <Input
-                    placeholder="Contact Information:"
+                    placeholder="Departure Location"
                     type="text"
                     name="departure"
                   />
@@ -89,7 +89,7 @@ const Terminal = () => {
                 <FormControl mt={4} isRequired>
                   <FormLabel> Number of Passengers:</FormLabel>
                   <Input
-                    placeholder="Number of Passengers:"
+                    placeholder="Number of Passengers"
                     type="number"
                     name="passangers"
                   />
@@ -118,7 +118,7 @@ const Terminal = () => {
       </div>
 
       {/* Lagos Terminal */}
-      <div className="animate__animated animate__fadeInLeft bg-transparent md:bg-red-400 rounded-md mt-5 md:mt-10 mx-auto max-w-[900px] w-full grid sm:grid-cols-2 gap-2 p-1 md:p-4 text-white">
+      <div className="animate__animated animate__fadeInLeft md:border-t md:border-b border-black mt-5 md:mt-10 mx-auto max-w-[900px] w-full grid sm:grid-cols-2 gap-2 p-1 md:p-4 text-white">
         <div className="hidden md:block">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.29857279163!2d3.299496311291875!3d6.462894645359911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b899fd586f543%3A0x50db5915de1d275e!2sTransport%20Company%20Of%20Anambra%20State%20Ltd.%20(TRACAS)!5e0!3m2!1sen!2sng!4v1705237797468!5m2!1sen!2sng"
@@ -143,7 +143,7 @@ const Terminal = () => {
       </div>
 
       {/* Abuja Terminal */}
-      <div className="animate__animated animate__fadeInLeft bg-transparent md:bg-red-400 rounded-md mt-5 md:mt-10 mx-auto max-w-[900px] w-full grid sm:grid-cols-2 gap-2 p-1 md:p-4 text-white">
+      <div className="animate__animated animate__fadeInLeft md:border-t md:border-b border-black mt-5 md:mt-10 mx-auto max-w-[900px] w-full grid sm:grid-cols-2 gap-2 p-1 md:p-4 text-white">
         <div className="hidden md:block">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1969.9877705386!2d7.438345349759049!3d9.065992450270045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cfd8e4fb2e13%3A0xdaeb920ed74f07a8!2sI-Mirror%20Global%20Consult!5e0!3m2!1sen!2sng!4v1705798426777!5m2!1sen!2sng"
@@ -168,7 +168,7 @@ const Terminal = () => {
       </div>
 
       {/* Enugu Terminal */}
-      <div className="animate__animated animate__fadeInLeft bg-transparent md:bg-red-400 rounded-md mt-5 md:mt-10 mx-auto max-w-[900px] w-full grid sm:grid-cols-2 gap-2 p-1 md:p-4 text-white">
+      <div className="animate__animated animate__fadeInLeft md:border-t md:border-b border-black mt-5 md:mt-10 mx-auto max-w-[900px] w-full grid sm:grid-cols-2 gap-2 p-1 md:p-4 text-white">
         <div className="hidden md:block">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.672867952885!2d7.487921474992175!3d6.436046193555127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1044a17d1a08ca13%3A0xc26b371941d53399!2s7%20Market%20Rd%2C%20Ogui%2C%20Enugu%20400102%2C%20Enugu!5e0!3m2!1sen!2sng!4v1705799959234!5m2!1sen!2sng"
