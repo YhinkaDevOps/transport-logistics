@@ -15,7 +15,7 @@ import { sendContactForm } from "../../../lib/api";
 const initValues = { name: "", email: "", subject: "", message: "" };
 const initState = { values: initValues };
 
-const contact = () => {
+const Contact = () => {
   const toast = useToast();
 
   const [state, setState] = useState(initState);
@@ -220,4 +220,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
