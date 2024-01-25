@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaFacebook } from "react-icons/fa6";
+import { FaFacebook, FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -52,11 +52,19 @@ const Footer = () => {
         {/* Social Links */}
         <div className="pt-2 flex flex-col gap-2">
           <h1 className="font-bold">Connect With Us</h1>
-          <button className="hover:opacity-70">
-            <Link href="https://web.facebook.com/profile.php?id=100085566767107">
-              <FaFacebook size={20} />
-            </Link>
-          </button>
+          <div className="flex flex-row gap-3">
+            <button className="hover:opacity-70">
+              <Link href="https://web.facebook.com/profile.php?id=100085566767107">
+                <FaFacebook size={20} />
+              </Link>
+            </button>
+
+            <button className="hover:opacity-70">
+              <Link href="https://www.linkedin.com/in/chimkasimma-transport-services-299171255/?originalSubdomain=ng">
+                <FaLinkedin size={20} />
+              </Link>
+            </button>
+          </div>
         </div>
       </div>
     </div>
