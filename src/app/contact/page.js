@@ -177,7 +177,7 @@ const Contact = () => {
 
             <div className="flex flex-col">
               <p className="text-[#333663] font-semibold">Website</p>
-              <p>http://chimkasimma.com</p>
+              <p>http://chimkasimmatransportservices.com</p>
             </div>
           </div>
 

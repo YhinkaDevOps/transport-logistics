@@ -12,9 +12,9 @@ const Testimonials = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mx-auto max-w-[1100px] p-2 ">
-        <div className="bg-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto p-4">
+        <div className="bg-[#333663] shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto p-4">
           <div>
-            <p className="text-justify text-[#2a2a2c]">
+            <p className="text-justify text-white">
               "As a frequent traveler, I've experienced various transportation
               services, but Chimkasimma Transport Services stands out. Their
               commitment to customer satisfaction is evident in the
@@ -23,14 +23,14 @@ const Testimonials = () => {
               inter-state journey, Chimkasimma consistently delivers quality
               service.
             </p>
-            <p className="mt-4 text-center font-semibold text-[#3f3f46]">
+            <p className="mt-4 text-center font-semibold text-white">
               Patric Stevens
             </p>
           </div>
         </div>
-        <div className="bg-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto p-4">
+        <div className="bg-[#333663] shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto p-4">
           <div>
-            <p className="text-justify text-[#2a2a2c]">
+            <p className="text-justify text-white">
               "I rely on Chimkasimma Transport Services for my business's
               corporate travel needs, and they never disappoint. The
               professionalism and reliability they exhibit make them an ideal
@@ -40,14 +40,14 @@ const Testimonials = () => {
               has made them an indispensable partner in our corporate travel
               strategy."
             </p>
-            <p className="mt-4 text-center font-semibold text-[#3f3f46]">
+            <p className="mt-4 text-center font-semibold text-white">
               Olayinka Adams
             </p>
           </div>
         </div>
-        <div className="bg-white shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto p-4">
+        <div className="bg-[#333663] shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto p-4">
           <div>
-            <p className="text-justify text-[#2a2a2c]">
+            <p className="text-justify text-white">
               "Chimkasimma Transport Services has been my go-to choice for
               inter-state travel. The punctuality, professionalism, and comfort
               they provide make every journey a delight. Their modern fleet,
@@ -57,7 +57,7 @@ const Testimonials = () => {
               with them is not just a commute; it's a stress-free and enjoyable
               experience.""
             </p>
-            <p className="mt-4 text-center font-semibold text-[#3f3f46]">
+            <p className="mt-4 text-center font-semibold text-white">
               Akeh Micheal
             </p>
           </div>

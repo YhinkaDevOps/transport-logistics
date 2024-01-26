@@ -24,7 +24,7 @@ const About = () => {
           <p className="animate__animated animate__zoomIn">
             Chimkasimma Transport Services is a leading road transport provider
             dedicated to fulfilling the transportation needs of individuals both
-            within and outside Lagos State.
+            within and outside Enugu State.
           </p>
           <p className="animate__animated animate__zoomIn">
             Having a steadfast commitment to delivering reliable mobility
