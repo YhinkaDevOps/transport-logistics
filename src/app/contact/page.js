@@ -166,7 +166,7 @@ const Contact = () => {
         </div>
         <div className="contact-form shadow-lg  group container rounded-md flex flex-col gap-4 p-7">
           <h3 className="text-[#444444] text-xl font-semibold">Contact Info</h3>
-          <div className="flex gap-6">
+          {/* <div className="flex gap-6">
             <div className="inline-block p-2 border-[2px] border-[#444444] rounded-md border-dashed">
               <img
                 src="/assets/web.png"
@@ -177,9 +177,9 @@ const Contact = () => {
 
             <div className="flex flex-col">
               <p className="text-[#333663] font-semibold">Website</p>
-              <p>http://chimkasimmatransportservices.com</p>
+              <p>https://chimkasimmatransportservices.vercel.app/</p>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex gap-6">
             <div className="inline-block p-2 border-[2px] border-[#444444] rounded-md border-dashed">

@@ -25,7 +25,9 @@ const Footer = () => {
               Contact Us
             </button>
           </Link>
-          <span className="text-sm">www.chimkasimma.com</span>
+          {/* <span className="text-sm">
+            https://chimkasimmatransportservices.vercel.app/
+          </span> */}
           <span className="text-sm">+(234) 08066177724 - enquiry</span>
         </div>
 
