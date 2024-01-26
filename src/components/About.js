@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="w-full min-h-[500px] py-10 bg-[#f4f5f7] text-black">
+    <div className="w-full min-h-[500px] py-10 bg-[#56ccf2] text-black">
       <div className="text-center mb-10">
         <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-black">
           About
